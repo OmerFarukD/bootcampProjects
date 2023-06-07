@@ -15,6 +15,8 @@ public class Main {
             rentalService.dailyRental(x.getId());
             rentalService.monthlyRental(x.getId());
         });
+
+
         rentalService.getRentalVehicles().forEach(x->System.out.println(x.toString()));
 
     }
